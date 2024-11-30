@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply bg-[#18181b] text-[#d4d4d8];
+    }
+
+    a {
+        @apply text-[#d4d4d8] no-underline; /* 默认设置链接样式 */
+    }
+
+    a:hover {
+        @apply text-gray-600; /* 悬停时的样式 */
+    }
+
+    p{
+        @apply  my-4;
+    }
+
+}
+
