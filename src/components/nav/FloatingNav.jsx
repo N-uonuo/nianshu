@@ -13,18 +13,20 @@ export const FloatingNav = () => {
         <>
             {/* 按钮部分 */}
             <button
-                className={`fixed bottom-14 right-7 z-[99] flex h-10 w-10 items-center justify-center rounded-full dark:bg-zinc-100`}
+                className={`fixed bg-white bottom-14 right-7 z-[99] flex h-10 w-10 items-center justify-center rounded-full d`}
                 role="presentation"
                 onClick={toggleNav}
             >
                 <div>
                     {!isNavVisible ? (
                         <svg viewBox="0 0 20 20" strokeLinecap="round"
-                             className="h-5 w-5 stroke-zinc-100 stroke-[1.5] dark:stroke-zinc-800 ">
+                             className="h-5 w-5 stroke-black stroke-[1.5] dark:stroke-zinc-800">
                             <path d="M 2 2.5 L 20 2.5"></path>
                             <path d="M 2 9.423 L 20 9.423" opacity="1"></path>
                             <path d="M 2 16.346 L 20 16.346"></path>
                         </svg>
+
+
                     ) : (
                         <svg xmlns="http://www.w3.org/2000/svg"
                              fill="none"
