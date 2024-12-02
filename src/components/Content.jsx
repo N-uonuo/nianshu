@@ -1,8 +1,7 @@
 const Content = () => {
     return (
         <article className="flex-1 ">
-            <section >
-                {/*ToDO 理解好下面h1标签的样式*/}
+            <section>{/*ToDO 理解好下面h1标签的样式*/}
                 <h1 className="text-3xl mobile-header md:static md:my-0 md:block">Nianshu Zhang</h1>
                 <p>你好，我是 Nianshu，2004 年出生于山东济宁。这是我第一次尝试使用 React
                     来构建一个博客。我喜欢阅读，跑步，旅行，音乐，电影和编程，以及和喜欢的人一起度过美好的时光。
@@ -13,16 +12,15 @@ const Content = () => {
                     这是一个拙劣的模仿，但希望未来的我也可以成为像她一样优秀的人。
                 </p>
                 <p>
-                     <a href="https://heroicons.com/" className="underline">Heroicons</a> 好像是一个很棒的图标库，我在这个网站上找到了很多好看的图标。
+                    <a href="https://heroicons.com/" className="underline">Heroicons</a> 好像是一个很棒的图标库，我在这个网站上找到了很多好看的图标。
                     以后我也会尝试使用这个图标库来制作一些图标。（这段先写在这里，以后在做规整）
                 </p>
                 <p>
                     <a href="https://juejin.cn/post/7067794198748987405" className="underline">这篇文章</a> 是我在掘金上看到的，好文！讲在React中创建一个多级下拉菜单教程
                 </p>
             </section>
-
         </article>
     );
-}
+};
 
 export default Content;

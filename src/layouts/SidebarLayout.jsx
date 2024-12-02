@@ -7,9 +7,8 @@ const SidebarLayout = () => {
     return (
         <div className="flex flex-col min-h-screen">
             <div className="flex flex-1">
-                <div className="md:hidden">
-                    <FloatingNav/>
-                </div>
+
+                <FloatingNav/>
 
                 {/* 左侧边栏 */}
                 <NavMenu/>
