@@ -1,5 +1,5 @@
 // @ts-ignore
-import styles from '../styles/moon.module.scss'
+import styles from './moon.module.scss'
 
 export function Moon() {
   return (
