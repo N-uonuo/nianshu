@@ -1,8 +1,9 @@
 const Content = () => {
     return (
         <article className="flex-1 ">
-            <section>
-                <h1 className="text-2xl">Nianshu Zhang</h1>
+            <section >
+                {/*ToDO 理解好下面h1标签的样式*/}
+                <h1 className="text-3xl mobile-header md:static md:my-0 md:block">Nianshu Zhang</h1>
                 <p>你好，我是 Nianshu，2004 年出生于山东济宁。这是我第一次尝试使用 React
                     来构建一个博客。我喜欢阅读，跑步，旅行，音乐，电影和编程，以及和喜欢的人一起度过美好的时光。
                 </p>
