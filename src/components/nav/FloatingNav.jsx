@@ -13,7 +13,7 @@ export const FloatingNav = () => {
         <>
             {/* 按钮部分 */}
             <button
-                className={`fixed bg-white bottom-14 right-7 z-[99] flex h-10 w-10 items-center justify-center rounded-full`}
+                className={`fixed md:hidden bg-white bottom-14 right-7 z-[99] flex h-10 w-10 items-center justify-center rounded-full`}
                 role="presentation"
                 onClick={toggleNav}
             >
