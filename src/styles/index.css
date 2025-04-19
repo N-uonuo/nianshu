@@ -2,33 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-    body {
-        @apply bg-[#18181b] text-[#d4d4d8];
-    }
+  body {
+    @apply bg-[#ffffff] text-[#000000]; 
+  }
 
-    a {
-        @apply text-[#d4d4d8] no-underline;
-        /* 默认设置链接样式 */
-    }
-
-    a:hover {
-        @apply text-gray-600;
-        /* 悬停时的样式 */
-    }
-
-    p {
-        @apply my-4 text-lg;
-    }
-
+  p {
+    @apply my-4 text-lg;
+  }
 }
 
 @layer components {
-    .mobile-header {
-        @apply md:hidden text-3xl tracking-tight font-bold my-5 z-20 sticky;
-    }
+  .mobile-header {
+    @apply md:hidden text-3xl tracking-tight font-bold my-5 z-20 sticky;
+  }
 }
-
-
-

@@ -1,9 +1,7 @@
-const Footer = () => {
-    return (
-        <footer className="mb-5 text-sm text-fg-secondary-color">
-            <p>&copy; 2024 My blog. All rights reserved.</p>
-        </footer>
-    );
-};
-
-export default Footer;
+export default function Footer() {
+  return (
+    <div className="mt-10 text-center text-xs text-gray-500">
+      © {new Date().getFullYear()} Nianshu's Blog
+    </div>
+  );
+}

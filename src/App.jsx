@@ -1,14 +1,34 @@
-import SidebarLayout from "./layouts/SidebarLayout.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Posts from "./pages/Posts";
+import Talks from "./pages/Talks";
+import Article from "./pages/Article";
 
+import FloatingNav from "./components/FloatingNav";
 
-const App = () => {
-    return (
-        <div className="flex h-full flex-col items-center justify-start font-sans md:relative md:flex-row md:items-start md:justify-center md:pb-12 md:pt-32">
-            <SidebarLayout>
+export default function App() {
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-black dark:text-white">
+      {/* Sidebar for desktop */}
+      <aside className="w-52 fixed h-full border-r bg-white hidden md:block">
+        <Sidebar />
+      </aside>
 
-            </SidebarLayout>
-        </div>
-    );
-};
+      {/* Main content */}
+      <main className="flex-1 ml-0 md:ml-52 p-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/posts" element={<Posts />} />
+          <Route path="/Talks" element={<Talks />} />
+          <Route path="/posts/:slug" element={<Article />} />
+        </Routes>
+        <Footer />
+      </main>
 
-export default App;
+      {/* Floating nav for mobile */}
+      <FloatingNav />
+    </div>
+  );
+}
