@@ -1,8 +1,8 @@
-# 如何使用 Git 将代码提交到 GitHub
+## 如何使用 Git 将代码提交到 GitHub
 
-## 步骤
+### 步骤
 
-### 1. 初始化本地仓库
+#### 1. 初始化本地仓库
 
 在项目文件夹中打开终端并运行以下命令：
 
@@ -10,7 +10,7 @@
 git init
 ```
 
-### 2. 添加远程仓库
+#### 2. 添加远程仓库
 
 将本地仓库与 GitHub 仓库关联：
 
@@ -18,7 +18,7 @@ git init
 git remote add origin https://github.com/your-username/your-repository.git
 ```
 
-### 3. 添加文件到暂存区
+#### 3. 添加文件到暂存区
 
 将所有更改添加到暂存区：
 
@@ -26,7 +26,7 @@ git remote add origin https://github.com/your-username/your-repository.git
 git add .
 ```
 
-### 4. 提交更改
+#### 4. 提交更改
 
 提交更改并添加提交信息：
 
@@ -34,7 +34,7 @@ git add .
 git commit -m "Your commit message"
 ```
 
-### 5. 推送到 GitHub
+#### 5. 推送到 GitHub
 
 将本地仓库的更改推送到 GitHub：
 
@@ -42,9 +42,9 @@ git commit -m "Your commit message"
 git push -u origin (branch)
 ```
 
-## 问题
+### 问题
 
-### 本地分支的名称与远程仓库的分支名称不同，或本地分支未更新
+#### 本地分支的名称与远程仓库的分支名称不同，或本地分支未更新
 
 1. **重命名本地分支以匹配远程分支名称**
 
@@ -78,7 +78,7 @@ git pull origin branch-name
 git status
 ```
 
-### 本地分支与远程分支之间有差异
+#### 本地分支与远程分支之间有差异
 
 如果本地分支与远程分支之间有差异，可以按照以下步骤解决：
 
@@ -122,7 +122,7 @@ git status
    git push origin branch-name
    ```
 
-## 常用命令
+### 常用命令
 
 - `git status`：查看当前仓库状态
 - `git branch`: 检查当前分支
