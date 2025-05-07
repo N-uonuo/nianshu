@@ -6,7 +6,7 @@ export default function Talks() {
       </h1>
       <hr className="my-4" />
       <video controls className="w-full mt-4 rounded-xl shadow-lg">
-        <source src="public/videos/1054.mp4" type="video/mp4" />
+        <source src="/videos/1054.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <p className="text-sm text-right text-black dark:text-white">
