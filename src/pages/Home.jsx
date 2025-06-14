@@ -13,7 +13,7 @@ const Content = () => {
             Nianshu，出生于山东济宁。我喜欢阅读，跑步，旅行，音乐，电影和编程，以及和喜欢的人一起度过美好的时光。
           </p>
           <p>
-            过去的我总是被“夸赞”为是一个“听话的好孩子”，在学习上被寄予厚望，可偏偏未能有什么能拿出手的成绩。
+            过去的我在学习上被寄予厚望，可偏偏未能有什么能拿出手的成绩。
             人如其名，喜欢读书但却没学会如何在学校读书。
           </p>
           <p>
@@ -24,7 +24,7 @@ const Content = () => {
             <img
               src={me}
               alt="Nianshu Zhang"
-              className="w-1/5 h-1/4 min-w-24 rounded-full shadow-lg m-2"
+              className="w-64 h-36 sm:w-32 sm:h-32 md:w-24 md:h-24 rounded-full shadow-lg m-2 object-cover"
             />
             <p className="text-lg text-gray-600  dark:text-white">
               路生于行<br></br>Nothing changes if nothing changes.
@@ -36,11 +36,9 @@ const Content = () => {
             quality time with people I care about.{" "}
           </p>
           <p>
-            In the past, I was often “praised” as a “well-behaved good kid,”
-            with high expectations placed on my academic performance.
-            Ironically, I never managed to achieve anything particularly
-            impressive. True to my name, I loved reading but never quite learned
-            how to truly study in school.
+            I used to carry high expectations when it came to academics, yet I
+            never really achieved anything worth showing. True to my name, I’ve
+            always loved reading — just not the kind that schools teach.
           </p>
           <p>
             Now, I hope to see a bigger world, meet more people, and understand

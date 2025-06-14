@@ -1,7 +1,8 @@
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/posts", label: "Posts" },
-  { to: "/talks", label: "Talks" },
+  { to: "/times", label: "Times" },
+  { to: "/thisiswhatilove", label: "sunset、wind & moon" },
 ];
 
 export default navLinks;

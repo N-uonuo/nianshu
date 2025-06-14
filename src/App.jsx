@@ -3,8 +3,9 @@ import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Posts from "./pages/Posts";
-import Talks from "./pages/Talks";
+import Times from "./pages/Times";
 import Article from "./pages/Article";
+import SunsetWind from "./pages/SunsetWind";
 
 import FloatingNav from "./components/FloatingNav";
 
@@ -21,8 +22,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/posts" element={<Posts />} />
-          <Route path="/Talks" element={<Talks />} />
+          <Route path="/times" element={<Times />} />
           <Route path="/posts/:slug" element={<Article />} />
+          <Route path="/thisiswhatilove" element={<SunsetWind />} />
         </Routes>
         <Footer />
       </main>
