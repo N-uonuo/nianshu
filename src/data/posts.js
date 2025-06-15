@@ -1,5 +1,10 @@
 const posts = [
   {
+    title: "一些好用的网站",
+    date: "June 15 , 2025",
+    link: "一些好用的网站",
+  },
+  {
     title: "How to use Git",
     date: "April 19 , 2025",
     link: "How to use Git",
